@@ -14,8 +14,17 @@
 h2 {
   font-size: medium;
   font-weight: 200;
+  color:green;
+}
+
+h2:hover{
+  font-size:x-large;
+  font-weight: 300;
+  color:orchid;
 }
 /* END SETUP */
+
+
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
@@ -32,10 +41,12 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.33%;
+  height:100%
 }
 
 .narrow {
@@ -58,6 +69,18 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+
+#white{
+  background-color: white;
+}
+
+.red {
+  background-color: #EA141D;
+}
+
+.light-blue{
+  background-color: #51ADDA;
+}
 
 .orange {
   background-color: orange;
@@ -91,19 +114,37 @@ h2 {
   background-color: #000;
 }
 
-/* BEGIN QUESTION 2 */
 
+
+
+
+
+
+/* BEGIN QUESTION 2 */
 .thailand-red {
-  /* TODO */
+  height: 17%;
+  background-color: #B5002D;
+  
+  
+  
+  
 }
 
 .thailand-white {
-  /* TODO */
+  height: 17%; 
+  background-color: white;
+  
+  
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 32%; 
+  background-color: #2E2A4C;
+  
+ 
 }
+
+
 
 /* END QUESTION 2 */
 
@@ -111,14 +152,25 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  flex-direction:row;
+  display: inline-block;
+  
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  flex-direction:row;
+  display: inline-block;
+  margin-left: -4px;
+  
 }
 
 .romania-red {
   background-color: #e10017;
+  flex-direction:row;
+  display: inline-block;
+  margin-left: -4px;
+  
 }
 
 /* END QUESTION 3 */
@@ -126,14 +178,36 @@ h2 {
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  flex-direction:row;
+  display: inline-block;
+  
+  
 }
 
 .mexico-img {
   /* TODO */
+
+  flex-direction:row;
+  display: inline-block;
+  max-height: 100px;
+  max-width: 100px;
+  justify-content:center;
+  margin-left:-4;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 29.25px;
+  padding-right:29.25px;
+  
+
+  
 }
 
 .mexico-red {
   background-color: #ce1126;
+  flex-direction:row;
+  display: inline-block;
+  
+  
 }
 
 /* QUESTION 6 */
@@ -144,16 +218,27 @@ h2 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  
 }
 
 /* For margin practice */
 .flag1 {
   background-color: red;
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  margin-right:10px
   /* TODO */
 }
 
 .flag2 {
   background-color: blue;
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  
   /* TODO */
 }
 /* For padding practice */
@@ -161,5 +246,6 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
+  padding:30px;
   /* TODO */
 }
